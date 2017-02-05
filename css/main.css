@@ -1,59 +1,63 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+/* Universal */
 body {
-    font-family: 'Roboto Mono', monospace;
-    color: #212121;
+  font-family: 'Roboto', monospace;
 }
-a {
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0 25px 0;
+}
+img {
+  width: 100%;
+}
+/* Header */
+.jumbotron {
+  background: white;
+  text-align: center;
+}
+.jumbotron h1 {
+  font-size: 35px;
+}
+
+/* Navbar and Footer*/
+.navbar {
+  background: white;
+  border: 0;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.navbar ul li {
+  font-size: 16px;
+}
+.nav.navbar-nav li a {
   color: #0d47a1;
 }
-
-/* Header */
-.header {
-  text-align: center;
-  margin-top: 60px;
+.nav.navbar-nav li a:hover {
+  color: #0d47a1;
+  text-decoration: underline;
 }
-
-/* Navigation And Footer*/
-#navbar, #footer {
-   float:left;
-   width:100%;
-   overflow:hidden;
-   position:relative;
-   margin-top: 30px;
-}
-#navbar ul, #footer ul {
-   clear:left;
-   float:left;
-   list-style:none;
-   margin: 0;
-   padding: 0;
-   position:relative;
-   left:50%;
-   text-align:center;
-}
-#navbar ul li, #footer ul li {
-   display:block;
-   float:left;
-   list-style:none;
-   margin:0;
-   padding-left: 10px;
-   padding-right: 10px;
-   position:relative;
-   right:50%;
-   font-size: 16px;
+#navbar {
+  margin-top: -50px;
 }
 #footer {
-  margin-top: 100px;
+  margin-top: 40px;
 }
-/* About Section */
-.projects {
-  margin-top: 70px;
+img {
+  width: 100%;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
 }
-.projects h2 {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 30px;
-}
-.projects p {
-  font-size: 15px;
-  margin-top: 30px;
+img:hover {
+  
 }
