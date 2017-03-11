@@ -1,0 +1,63 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+/* Universal */
+body {
+  font-family: 'Roboto', monospace;
+}
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0 25px 0;
+}
+img {
+  width: 100%;
+}
+/* Header */
+.jumbotron {
+  background: white;
+  text-align: center;
+}
+.jumbotron h1 {
+  font-size: 35px;
+}
+
+/* Navbar and Footer*/
+.navbar {
+  background: white;
+  border: 0;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.navbar ul li {
+  font-size: 16px;
+}
+.nav.navbar-nav li a {
+  color: #0d47a1;
+}
+.nav.navbar-nav li a:hover {
+  color: #0d47a1;
+  text-decoration: underline;
+}
+#navbar {
+  margin-top: -50px;
+}
+#footer {
+  margin-top: 40px;
+}
+img {
+  width: 100%;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+img:hover {
+
+}
