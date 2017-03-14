@@ -1,28 +1,31 @@
-/* Fonts */
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
-
-/* Universal */
 body {
-  font-family: 'Roboto', monospace;
+  font-family: 'Inconsolata', monospace;
+  min-height: 100%;
 }
-h2 {
-  font-size: 20px;
-  font-weight: bold;
-  margin: 20px 0 25px 0;
-}
-img {
-  width: 100%;
-}
-/* Header */
+
 .jumbotron {
-  background: white;
+  background: #ffffff;
+  background-size: cover;
+
+  margin: 0;
   text-align: center;
 }
-.jumbotron h1 {
-  font-size: 35px;
+.jumbotron h1{
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 
-/* Navbar and Footer*/
+.logo {
+  height: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px;
+}
+
 .navbar {
   background: white;
   border: 0;
@@ -36,7 +39,7 @@ img {
   text-align: center;
 }
 .navbar ul li {
-  font-size: 16px;
+  font-size: 1.5em;
 }
 .nav.navbar-nav li a {
   color: #0d47a1;
@@ -44,20 +47,44 @@ img {
 .nav.navbar-nav li a:hover {
   color: #0d47a1;
   text-decoration: underline;
+  background: none;
 }
-#navbar {
-  margin-top: -50px;
-}
-#footer {
-  margin-top: 40px;
-}
-img {
-  width: 100%;
-  -moz-transition: all .2s ease-in;
-  -o-transition: all .2s ease-in;
-  -webkit-transition: all .2s ease-in;
-  transition: all .2s ease-in;
-}
-img:hover {
 
+.project {
+  margin-top: 10vh;
+}
+.project img {
+  padding: 10px;
+  width: 100%;
+}
+
+
+footer {
+  margin-top: 30vh;
+  text-align: center;
+  font-size: 1.5em;
+}
+footer a {
+  text-decoration: none;
+  color: #828282;
+}
+footer a:hover {
+  text-decoration: none;
+  color: #212121;
+}
+
+.error {
+  margin-top: 30vh;
+  text-align: center;
+}
+.error p {
+  font-size: 1.8em;
+}
+
+.sitemap p {
+  font-size: 1.3em;
+  margin-bottom: 30px;
+}
+.sitemap ul{
+    font-size: 1.5em;
 }

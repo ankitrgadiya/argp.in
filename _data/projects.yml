@@ -1,23 +1,23 @@
 - name: Saturn
-  link: https://saturn.ankitrgadiya.in
-  image: saturn-min.jpg
+  img: saturn.jpg
+  url: https://saturn.ankitrgadiya.in
 
 - name: Proxima
-  link: https://proxima.ankitrgadiya.in
-  image: proxima-min.jpg
+  img: proxima.jpg
+  url: https://proxima.ankitrgadiya.in
 
 - name: Deneb
-  link: https://deneb.ankitrgadiya.in
-  image: deneb-min.png
+  img: deneb.png
+  url: https://deneb.ankitrgadiya.in
 
 - name: FOSSASIA GCI 16
-  link: https://goo.gl/UzkezY
-  image: gci-min.jpg
+  img: gci.jpg
+  url: https://goo.gl/UzkezY
 
 - name: Clinichubb
-  link: https://github.com/Clinichubb
-  image: clinichubb-min.png
+  img: clinichubb.png
+  url: http://clinichubb.com
 
 - name: Img_checker
-  link: https://rubygems.org/gems/img_checker
-  image: img_checker-min.png
+  img: img_checker.png
+  url: https://rubygems.org/gems/img_checker

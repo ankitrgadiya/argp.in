@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+    <!-- Header -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Ankit R Gadiya</h1>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" role="navigation">
+      <div class="container-fluid">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="https://ankitrgadiya.in">Home</a></li>
+            <li><a href="https://blog.ankitrgadiya.in" target="_blank">Blog</a></li>
+            <li><a href="/">Projects</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Projects -->
+    <div class="container">
+      <div class="row project">
+
+        {% for project in site.data.projects %}
+
+        <div class="col-md-4 col-sm-6">
+          <a href="{{ project.url}}" alt="{{ project.name }}">
+            <img src="/assets/images/{{ project.img }}">
+          </a>
+        </div>
+
+        {% endfor %}
+      </div>
+    </div>
