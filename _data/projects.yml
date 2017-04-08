@@ -1,14 +1,14 @@
 - name: Saturn
   img: saturn.jpg
-  url: https://saturn.ankitrgadiya.in
+  url: https://saturn.argp.in
 
 - name: Proxima
   img: proxima.jpg
-  url: https://proxima.ankitrgadiya.in
+  url: https://proxima.argp.in
 
 - name: Deneb
   img: deneb.png
-  url: https://deneb.ankitrgadiya.in
+  url: https://deneb.argp.in
 
 - name: FOSSASIA GCI 16
   img: gci.jpg
