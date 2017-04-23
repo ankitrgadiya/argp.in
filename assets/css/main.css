@@ -42,12 +42,14 @@ body {
   font-size: 1.5em;
 }
 .nav.navbar-nav li a {
-  color: #0d47a1;
+  color: #000000;
+	font-weight: bold;
 }
 .nav.navbar-nav li a:hover {
-  color: #0d47a1;
-  text-decoration: underline;
   background: none;
+}
+a.active {
+	border-bottom: 3px solid #000000;
 }
 
 .project {
