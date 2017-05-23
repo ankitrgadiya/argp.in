@@ -1,92 +1,97 @@
-body {
-  font-family: 'Inconsolata', monospace;
-  min-height: 100%;
+/* Header */
+header.jumbotron {
+  font-family:  'Inconsolata', monospace;
+  background: white;
 }
-
-.jumbotron {
-  background: #ffffff;
-  background-size: cover;
-
-  margin: 0;
-  text-align: center;
-}
-.jumbotron h1{
+header.jumbotron h1 {
   font-size: 2.5em;
   font-weight: bold;
-  text-align: center;
   margin-top: 10vh;
-  margin-bottom: 10vh;
 }
-
-.logo {
+header.jumbotron img.logo {
   height: 25px;
   position: absolute;
   top: 0;
   left: 0;
   margin: 10px;
 }
-
-.navbar {
-  background: white;
-  border: 0;
+header.jumbotron .navigation {
+  margin-top: 20vh;
 }
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-}
-.navbar .navbar-collapse {
-  text-align: center;
-}
-.navbar ul li {
+header.jumbotron .navigation ul li {
   font-size: 1.5em;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-.nav.navbar-nav li a {
-  color: #000000;
-	font-weight: bold;
+header.jumbotron .navigation ul li.active {
+  padding-bottom: 5px;
+  border-bottom: 3px black solid;
 }
-.nav.navbar-nav li a:hover {
-  background: none;
-}
-a.active {
-	border-bottom: 3px solid #000000;
-}
-
-.project {
-  margin-top: 10vh;
-}
-.project img {
-  padding: 10px;
-  width: 100%;
-}
-
-
-footer {
-  margin-top: 30vh;
-  text-align: center;
-  font-size: 1.5em;
-}
-footer a {
+header.jumbotron .navigation ul li a {
+  color: black;
   text-decoration: none;
-  color: #828282;
-}
-footer a:hover {
-  text-decoration: none;
-  color: #212121;
 }
 
-.error {
-  margin-top: 30vh;
-  text-align: center;
+/* Body */
+.container.body {
+  font-family: 'Inconsolata', monospace;
 }
-.error p {
+.container.body .title {
+  margin-bottom: 80px;
+}
+.container.body h2 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 10vh;
+}
+.container.body h3 {
   font-size: 1.8em;
+  font-weight: bold;
+  margin-left: 40px;
+  margin-bottom: 5vh;
+}
+.container.body p {
+  font-size: 1.5em;
+  margin-left: 40px;
+  margin-bottom: 10vh;
+}
+.container.body ul li {
+  font-size: 1.5em;
+  margin-left: 40px;
+  margin-bottom: 10px;
 }
 
-.sitemap p {
-  font-size: 1.3em;
-  margin-bottom: 30px;
+/* Footer */
+footer.jumbotron {
+  background: white;
+  margin-bottom: 0;
+  font-family: 'Inconsolata', monospace;
 }
-.sitemap ul{
-    font-size: 1.5em;
+footer.jumbotron p {
+  font-size: 1.3em;
+}
+footer.jumbotron .social ul li {
+  font-size: 1.5em;
+}
+footer.jumbotron .social ul li a {
+  text-decoration: none;
+}
+footer.jumbotron .sitemap {
+  text-align: center;
+}
+footer.jumbotron .sitemap ul {
+  display: inline-block;
+  text-align: left;
+}
+footer.jumbotron .sitemap ul li {
+  font-size: 1.2em;
+}
+
+
+p.error {
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.5em;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
